@@ -6,8 +6,6 @@ PROBLEM DESCRIPTION:
 2. You have to find out the sqrt(N) without the help of any built-in functions
 3. RETURN an INTEGER that is the sqrt(N)
 
-'''
-'''
 
 BRUTE FORCE ALGORITHM -> TC = O(n), SC = O(1)
 
@@ -55,7 +53,7 @@ def OptimizedLinearSearchToFindSqrt(n):
 
 THE MOST EFFICIENT SOLUTION -> THOUGHT PROCESS:
 
-1. We know the searching range [0, N]
+1. We know the searching range [0, N] -> BINARY SEARCH ON ANSWERS type problem
 2. We find the MID of the range and try to eliminate either the leftmost half or the rightmost half
 3. As a result the search space will get reduced at each iterative step
 4. If MID*MID > N then we know for sure the ANSWER we're looking for is in the leftmost part
