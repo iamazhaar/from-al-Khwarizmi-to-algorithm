@@ -9,8 +9,14 @@ PROBLEM DESCRIPTION:
 
 
 DEFINITION OF LOWER & UPPER BOUND:
+
+FOR ASCENDING ORDER SORTED DATASET
 -> Lower Bound is the SMALLEST INDEX such that A[i] >= X
 -> Upper Bound is the SMALLEST INDEX such that A[i] > X
+
+FOR DESCENDING ORDER SORTED DATASET
+-> Lower Bound is the SMALLEST INDEX such that A[i] <= X
+-> Upper Bound is the SMALLEST INDEX such that A[i] < X
 
 
 THOUGHT PROCESS:
