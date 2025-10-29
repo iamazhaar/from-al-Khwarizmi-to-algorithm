@@ -22,7 +22,7 @@ THOUGHT PROCESS:
 
 
 NOTES:
-1. The following Two Pointer Algorithm only works whern the ARRAY is SORTED
+1. The following Two Pointer Algorithm only works when the ARRAY is SORTED
 
 '''
 
