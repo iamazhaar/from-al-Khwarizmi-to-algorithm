@@ -48,6 +48,9 @@ THOUGHT PROCESS FOR BETTER SOLUTION:
 8. IF x EXISTS in the HASHMAP then we got what we're looking for (2 DISTINCT INDICES)
 9. ELSE we're going to put the (Current Element, Indices of Current Element) as (key, value) pair in the HASHMAP
 
+
+FOR MOST OPTIMIZED SOLUTION -> SEE Two Pointers/Two-Sum-Trouble.py
+
 '''
 
 # A MORE BETTER APPROACH -> TC = O(n), SC = O(n)
