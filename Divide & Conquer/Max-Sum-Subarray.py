@@ -72,22 +72,27 @@ ANALYSIS:
 
 
 def crossingSubarray(A, p, q, r):
-    maxSum = A[q]
     sI = q
     eI = q
-    currentSum = A[q]
-    for i in range(q-1, -1, -1):
+
+    left_cross_sum = float("-inf")
+    currentSum = 0
+    for i in range(q, -1, -1):
         currentSum += A[i]
-        if (currentSum > maxSum):
-            maxSum = currentSum
+        if (currentSum > left_cross_sum):
+            left_cross_sum = currentSum
             sI = i
-    currentSum = maxSum
+
+    right_cross_sum = float("-inf")
+    currentSum = 0
     for i in range(q+1, r+1):
         currentSum += A[i]
-        if (currentSum > maxSum):
-            maxSum = currentSum
+        if (currentSum > right_cross_sum):
+            right_cross_sum = currentSum
             eI = i
-    return (maxSum, sI, eI)
+    
+    max_cross_sum = left_cross_sum + right_cross_sum
+    return (max_cross_sum, sI, eI)
 
 
 
