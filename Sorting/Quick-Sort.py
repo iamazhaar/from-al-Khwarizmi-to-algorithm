@@ -41,7 +41,7 @@ def partition(arr, start, end):
     pivot = arr[end]
     pIndex = start
 
-    for i in range(end):
+    for i in range(start, end):
         if (arr[i] <= pivot):
             arr[pIndex], arr[i] = arr[i], arr[pIndex]
             pIndex += 1
@@ -72,7 +72,7 @@ def quickSort(arr, start, end):
 # For Testing Purpose
 '''
 
-A = [3, 1, 2, 0, 5, 4]
+A = [4, 9, 0, 1, 4, 3, 2, 10]
 quickSort(A, 0, len(A)-1)
 print(A)
 
