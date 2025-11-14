@@ -2,21 +2,28 @@
 
 PROBLEM DESCRIPTION:
 
-1. You have a Rotated Sorted Array with N DISTINCT Elements
-2. Your task is to find out how many times the array has been rotated
+    1. You have a Rotated Sorted Array with N DISTINCT Elements
+    2. Your task is to find out how many times the array has been rotated
 
 
 THOUGHT PROCESS:
 
-1. From Minimum-In-RSA.py I know how to find the minimum element in a Rotated Sorted Array
-2. Minimum element is basically the pivot of rotation
-3. Hence, its index = the number of rotation
+    1. From Minimum-In-RSA.py I know how to find the minimum element in a Rotated Sorted Array
+    2. Minimum element is basically the pivot of rotation
+    3. Hence, its index = the number of rotation
+
+
+ANALYSIS:
+
+    1. Time Complexity: O(log n)
+    2. Space Complexity: O(1)
 
 
 NOTES:
-1. The logic will be changed accordingly if the DATASET is sorted in DESCENDING order
-2. The following algorithm WON'T WORK if the Rotated Sorted Array contains DUPLICATES
-3. If RSA contains DUPLICATES -> Follow the idea of See Rotated-Sorted-Array-II.py
+
+    1. The logic will be changed accordingly if the DATASET is sorted in DESCENDING order
+    2. The following algorithm WON'T WORK if the Rotated Sorted Array contains DUPLICATES
+    3. If RSA contains DUPLICATES -> Follow the idea of See Rotated-Sorted-Array-II.py
 
 '''
 
