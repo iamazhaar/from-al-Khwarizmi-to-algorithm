@@ -18,10 +18,12 @@ THOUGHT PROCESS:
 
 ANALYSIS:
 
-1. Time Complexity: Best = O(1), Average = Worst = O(n)
-2. Space Complexity: O(1) (in-place)
+    1. Time Complexity: Best = O(1), Average = Worst = O(n)
+    2. Space Complexity: O(1) (in-place)
 
 '''
+
+
 
 def linearSearch(dataset, key):
     n = len(dataset)

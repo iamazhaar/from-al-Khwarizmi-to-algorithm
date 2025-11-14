@@ -19,6 +19,7 @@ THOUGHT PROCESS:
 
     
 ANALYSIS:
+
     1. Time Complexity: Best = O(1), Average = Worst = O(log N)
     2. Space Complexity: O(1) (in-place)
 
@@ -31,7 +32,6 @@ NOTES:
 '''
 
 
-# Binary Search Algorithm -> TC = O(log N), SC = O(1)  [Base of Logarithm = 2]
 
 def binarySearch(dataset, key):
     left = 0
