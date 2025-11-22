@@ -77,7 +77,7 @@ def crossingSubarray(A, p, q, r):
 
     left_cross_sum = float("-inf")
     currentSum = 0
-    for i in range(q, p+1, -1):
+    for i in range(q, p-1, -1):
         currentSum += A[i]
         if (currentSum > left_cross_sum):
             left_cross_sum = currentSum
