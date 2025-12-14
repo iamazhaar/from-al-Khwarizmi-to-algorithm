@@ -27,6 +27,7 @@ NOTES:
     2. There can be multiple valid DFS traversal order
     3. For calculating TC & SC, i assumed graph is stored using adjacency list
        & considered only the required auxiliary space for the algorithm
+    4. Assumed the graph might have multiple connected components
 
 '''
 
