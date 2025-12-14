@@ -30,11 +30,11 @@ NOTES:
 from collections import defaultdict
 
 def recursive_dfs(graph, source, visited):
+    visited[source] = 1
     print(source, end=" ")
 
     for adj_ver in graph[source]:
         if (not(visited[adj_ver])):
-            visited[adj_ver] = 1
             recursive_dfs(graph, adj_ver, visited)
 
 
@@ -44,7 +44,6 @@ def traversal(graph, n):
 
     for node in range(1, n+1):
         if (not(visited[node])):
-            visited[node] = 1
             recursive_dfs(graph, node, visited)
 
 
